@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import './App.css';
 import logo from  './img/Logo.png';
 import ImagenCentral from  './img/image-center.png';
-
+import Episodios from '../src/components/Episodios';
 
 function App() {
   return (
@@ -43,6 +43,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Episodios />
 
     </Fragment>
   );

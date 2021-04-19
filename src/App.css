@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFF ; /*#262C3A*/
+  background-color: #262C3A ;
 }
 
 header{
@@ -15,6 +15,11 @@ header{
   height: 10vh;
   margin: auto;
   align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
 }
 
 .logo-container, 
@@ -36,7 +41,7 @@ nav{
 }
 
 .nav-link{
-  color: black;
+  color: #fff;
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
@@ -62,7 +67,7 @@ nav{
 .intro-text p{
   margin-top: 5px;
   font-size: 22px;
-  color: black;
+  color: #fff;
 }
 
 .search{
