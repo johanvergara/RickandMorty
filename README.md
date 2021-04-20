@@ -26,19 +26,19 @@ _Clonar el repositorio desde su consola GIT_
 git clone https://github.com/username/RickandMorty.git
 ```
 
-_Una vez clonado localmente, se ingresa al proyecto en la consola de su equipo y ejecutamos el siguiente comando para inicializar el proyecto_
+_Una vez clonado localmente se ingresa al proyecto desde la consola de su equipo y ejecutamos el siguiente comando para inicializar el proyecto_
 
 ```
 npm start
 ```
 
-_El proyecto estará corriendo en el puerto [http://localhost:3000](http://localhost:3000)_
+_El proyecto estará corriendo localmente en el puerto [http://localhost:3000](http://localhost:3000)_
 
 ## Despliegue 📦
 
-_El proyecto **Rick and Morty** se encuentra ya con un despliegue a traves de Netlify [Netlify](https://www.netlify.com/)_
+_El proyecto **Rick and Morty** se encuentra ya con un despliegue a través de [Netlify](https://www.netlify.com/)._
 
-_Para realizar el deploy se realiza el siguiente proceso_
+_Para realizar el deploy, se realiza el siguiente proceso._
 
 _Comando para guardar los cambios realizados_
 
@@ -58,11 +58,11 @@ _Comando para realizar el deploy al proyecto_
 git push origin main
 ```
 
-_Una vez realizado el deploy en segundos, sera actualizado el proyecto en la siguiente URL [Ricky and Morty](https://ricky-and-morty.netlify.app/), la cual lleva una integración continua_
+_Una vez realizado el deploy en segundos, será actualizado el proyecto en la siguiente URL [Ricky and Morty](https://ricky-and-morty.netlify.app/), la cual lleva una integración continua._
 
 ## Construido con 🛠️
 
-_Este proyecto esta construido con_
+_Este proyecto está construido con:_
 
 * [ReactJS](https://es.reactjs.org/docs/getting-started.html) - El framework web usado
 * [Emotion](https://emotion.sh/docs/introduction) - Para un mejor manejo en el CSS
