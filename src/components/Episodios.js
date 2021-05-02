@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from '@emotion/styled';
 
 import api from '../service/api';
-import { CardGrid, Card, Header, PageNumber, Spinner } from './css';
+import { CardGrid, Card, Header, Spinner } from './css';
 
 const Titulo = styled.h1`
     text-align: center;
@@ -23,21 +23,21 @@ const Titulo = styled.h1`
     }
 `;
 
-function getClickablePages(actualPage) {
-    const offsets = [0, 1, 2, 3, 4];
-    return offsets.map(number => parseInt(actualPage, 10) + number);
-}
+// function getClickablePages(actualPage) {
+//     const offsets = [0, 1, 2, 3, 4];
+//     return offsets.map(number => parseInt(actualPage, 10) + number);
+// }
 
-function getPage(direction, actualPage) {
-    const nextPage = parseInt(actualPage, 10) + direction;
-    return nextPage >= 0 ? nextPage : 1;
-}
+// function getPage(direction, actualPage) {
+//     const nextPage = parseInt(actualPage, 10) + direction;
+//     return nextPage >= 0 ? nextPage : 1;
+// }
 
 export default function Episodios({ match }) {
 
   const [characters, setCharacters] = useState([]);
   const [loading, setLoading] = useState(false);
-  const clickablePages = getClickablePages(Number(match.params.page) || 1);
+  // const clickablePages = getClickablePages(Number(match.params.page) || 1);
   const page = Number(match.params.page) || 1;
 
     useEffect(() => {
