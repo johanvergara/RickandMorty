@@ -2,11 +2,13 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Inicio from './components/Inicio';
 import Episodios from './components/Episodios';
 import Doc from './components/Doc';
+import Inicio from './components/Inicio';
+
 
 function App() {
+
   return (
     <Router>
       <Header />
