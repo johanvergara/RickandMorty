@@ -46,7 +46,7 @@ const Doc = () => {
                 <ul className="list-services">
                     <li>
                         <figure>
-                            <img src={LogoHtml} alt="Logo Angular" />
+                            <img src={LogoHtml} alt="Logo HTML" />
                             <figcaption>HTML</figcaption>
                         </figure>
                     </li>
@@ -58,7 +58,7 @@ const Doc = () => {
                     </li>
                     <li>
                         <figure>
-                            <img src={LogoJS} alt="Logo Vuejs" />
+                            <img src={LogoJS} alt="Logo JavaScript" />
                             <figcaption>JavaScript</figcaption>
                         </figure>
                     </li>
